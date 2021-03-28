@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    height: 84px;
+    /* position: absolute;
+    left: 80px; */
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbardiv{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 12px;
+    margin: 6px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+.rightnav{
+    display: flex;
+}
+.rightnav{
+    position: absolute;
+    right: 12px;
+}
+.leftnav{
+    display: flex;
+    /* position: absolute;
+    left: 80px; */
+}
+.navbardiv ul li a button{
+    padding: 6px;
+    background-color: white;
+}
+.firstimg img{
+    height: 477px;
+}
+.firsttext h2,a{
+    text-align: center;
+}
+.firsttext a{
+    display: block;
+    margin: auto;
+    width: 200px;
+    text-decoration: none;
+}
+.firsttext a:hover{
+    text-decoration: underline;
+}
+.logoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logoes div{
+    margin: 36px;
+}
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.post div{
+    margin: 12px;
+}
+.postimg img{
+    height: 250px;
+}
+.postimg a{
+    margin: 12px;
+    text-decoration: none;
+}
+.postimg a:hover{
+    text-decoration: underline;
+}
+.mainbox{
+    background-color: #e6e6e6;
+}
+.box p{
+    padding: 12px;
+    margin: 0px;
+}
+.box p:hover{
+    box-shadow: 1px 1px 6px;
+}
+footer{
+    display: flex;
+    background-color:#e6e6e6 ;
+}
+footer div{
+    margin: 48px;
+}
+footer div p:hover{
+    text-decoration: underline;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondbottom h2{
+   text-align: center;
+   font-size: 2.2rem;
+}
+.morediv{
+    margin: 48px 120px;
+}
+.morediv a{
+    text-decoration: none;
+}
+.morediv a:hover{
+    text-decoration: underline;
+}

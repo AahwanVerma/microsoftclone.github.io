@@ -1,0 +1,168 @@
+*{
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    height: 84px;
+    /* position: absolute;
+    left: 80px; */
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbardiv{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 12px;
+    margin: 6px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+.rightnav{
+    display: flex;
+}
+.rightnav{
+    position: absolute;
+    right: 12px;
+}
+.leftnav{
+    display: flex;
+    /* position: absolute;
+    left: 80px; */
+}
+.firstview img{
+    height: 563px;
+}
+.imgbtn img{
+    height: 60px;
+}
+.imgbtn a{
+    color: green;
+}
+.imgbtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 36px;
+}
+.imgbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: green;
+}
+.post1 img{
+    height: 845px;
+}
+.post1 div{
+    position: absolute;
+    height: 277px;
+    align-self: flex-end;
+    color: white;
+    font-size: 1.3rem;
+    margin-left: 37px;
+}
+.post1 div a{
+    color: white;
+}
+.post1 div a:hover{
+    color:green;
+}
+.post1{
+    display: flex;
+}
+.post2{
+    display: flex;
+    margin-top: 4px;
+    margin-right: 4px;
+}
+.post2 img{
+    height: 425px;
+}
+.post2div{
+    /* border: 1px solid; */
+    width: 370px;
+    color: white;
+    background-color: green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+}
+.post2div a{
+    color: white;
+}
+.post2div a:hover{
+    color:yellowgreen;
+}
+.posts1{
+    display: flex;
+}
+.colomn2{
+    display: flex;
+    flex-direction: column;
+}
+.post3text{
+    margin: 36px;
+}
+.post3{
+    margin-top: 0px;
+    margin-bottom: 4px;
+}
+.post8div{
+    color: black;
+    background-color: white;
+    /* margin: 24px; */
+}
+.post8div div{
+    margin: 48px;
+}
+.post8div a{
+    color: black;
+}
+.post8div a:hover{
+    color: black;
+}
+.posts2{
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+.secondview img{
+    height: 634px;
+    margin-top: 6px;
+}
+footer{
+    display: flex;
+    background-color:#e6e6e6 ;
+}
+footer div{
+    margin: 48px;
+}
+footer div p:hover{
+    text-decoration: underline;
+}
+.footer div p{
+    margin: 6px;
+    font-size: 0.5rem;
+}

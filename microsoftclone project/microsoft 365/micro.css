@@ -1,0 +1,193 @@
+*{
+    padding: 0px;
+    /* margin: 0px; */
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    height: 84px;
+    /* position: absolute;
+    left: 80px; */
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbardiv{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 12px;
+    margin: 6px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+.rightnav{
+    display: flex;
+}
+.rightnav{
+    position: absolute;
+    right: 12px;
+}
+.leftnav{
+    display: flex;
+    /* position: absolute;
+    left: 80px; */
+}
+.navbardiv ul li a button{
+    padding: 6px;
+    background-color: white;
+}
+.firstpara p{
+    color: white;
+    background-color: rgb(66, 66, 250);
+    padding: 12px;
+    text-align: center;
+}
+.firstpara a{
+    color: white;
+    margin-left: 12px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.firstdiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px;
+    font-size: 1.2rem;
+    position: absolute;
+}
+.butons button{
+    padding: 12px 60px;
+    background-color: rgb(66, 66, 250);
+    color: white;
+    border: 2px solid white;
+    margin: 24px 36px;
+}
+.firstview{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstview img{
+    height: 470px;
+}
+.secondview h1{
+    text-align: center;
+    padding: 36px;
+    margin: 60px;
+}
+.secondview img{
+    height: 620px;
+}
+.secondview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.secondbottom{
+    padding: 60px 12px;
+    margin: 48px 0px;
+    background-color: #e6e6e6;
+}
+.more{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondbottom h2{
+   text-align: center;
+   font-size: 2.2rem;
+}
+.morediv{
+    margin: 48px 120px;
+}
+.morediv a{
+    text-decoration: none;
+}
+.morediv a:hover{
+    text-decoration: underline;
+}
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: white;
+    color: black;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+.icon{
+    display: flex;
+    margin: 24px;
+}  
+.icondiv{
+    margin-left: 820px;
+}
+footer{
+    display: flex;
+    background-color:#e6e6e6 ;
+}
+footer div{
+    margin: 48px;
+}
+footer div p:hover{
+    text-decoration: underline;
+}
+.footer div p{
+    margin: 6px;
+    /* padding: 12px; */
+}
+/* .firstfoot p,h4{
+    margin: 12px;
+}
+.secondfoot p{
+    margin: 12px;
+}
+.thirdfoot p{
+    margin: 12px;
+}
+.forthfoot p{
+    margin: 12px;
+}
+.fifthfoot p{
+    margin: 12px;
+}
+.sixthfoot p{
+    margin: 12px;
+} */

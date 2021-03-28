@@ -1,0 +1,170 @@
+*{
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    height: 84px;
+    /* position: absolute;
+    left: 80px; */
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbardiv{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 12px;
+    margin: 6px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+.rightnav{
+    display: flex;
+}
+.rightnav{
+    position: absolute;
+    right: 12px;
+}
+.leftnav{
+    display: flex;
+    /* position: absolute;
+    left: 80px; */
+}
+.secondnav ul{
+    display: flex;
+    list-style: none;
+    background-color:#f0f0f0 ;
+    padding: 12px;
+    margin: 0px;
+}
+.secondnav ul li a{
+    text-decoration: none;
+    color: black;
+    /* margin: 12px; */
+    margin-left: 36px;
+}
+.firstview img{
+    height: 395px;
+    margin-top: 0px;
+}
+.btn1 img{
+    height: 48px;
+}
+.firstrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.secondrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.firstrow div{
+    margin: 36px 0px;
+}
+.btn1{
+    /* margin: 36px 0px; */
+    padding: 12px 110px;
+}
+.btn1:hover{
+    box-shadow: 0.2px 0.2px 6px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+.firstlink{
+    margin: 24px 90px;
+}
+.linkrow1{
+    display: flex;
+    flex-direction: column;
+    padding: 48px;
+}
+.linkrow1 a{
+    padding: 12px;
+}
+.linkcolumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.morelink h1{
+    text-align: center;
+}
+.video{
+    display: flex;
+}
+.videodiv{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+}
+.videodiv div{
+    margin: 48px;
+}
+.videodiv div button{
+    padding: 12px;
+    margin-top: 12px;
+    background-color:rgb(91, 91, 241);
+}
+.imgpost{
+    display: flex;
+}
+.imgpost div{
+    display: flex;
+    flex-direction: column;
+    margin: 24px;
+}
+.postrow1{
+    display: flex;
+    margin: 36px;
+}
+.post h1{
+    text-align: center;
+    margin-top: 48px;
+}
+.footlinks h1{
+    text-align: center;
+    margin-top: 60px;
+}
+.linkrow a{
+    margin: 12px 80px;
+    padding: 12px;
+    /* margin-left: 12px; */
+}
+footer{
+    display: flex;
+    background-color:#e6e6e6 ;
+}
+footer div{
+    margin: 48px;
+}
+footer div p:hover{
+    text-decoration: underline;
+}
+.footer div p{
+    margin: 6px;
+}
+.footlinks{
+    margin: 48px;
+    padding: 24px;
+}

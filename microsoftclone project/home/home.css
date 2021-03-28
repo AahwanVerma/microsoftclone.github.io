@@ -1,0 +1,151 @@
+*{
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    height: 84px;
+    /* position: absolute;
+    left: 80px; */
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbardiv{
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 12px;
+    margin: 6px;
+    color: black;
+    align-items: center;
+    justify-content: center;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+.rightnav{
+    display: flex;
+}
+.rightnav{
+    position: absolute;
+    right: 12px;
+}
+.leftnav{
+    display: flex;
+    /* position: absolute;
+    left: 80px; */
+}
+.homeimage1 img{
+    height: 562px;
+}
+.buttonimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.imgbtn{
+    /* border: 1px solid; */
+    width: 108px;
+    padding: 12px;
+    margin: 36px;
+}
+.btnlink{
+    text-decoration: none;
+    color: black;
+    display: block;
+    text-align: center;
+}
+.post{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.postimg{
+    padding: 6px;
+    margin: 36px;
+    width: 300px;
+}
+.postimg img{
+    height: 170px;
+}
+.postlink{
+    text-decoration: none;
+    font: bolder;
+}
+.postlink:hover{
+    text-decoration: underline;
+}
+.homeimage2 img{
+    height: 562px;
+}
+.secondbottom{
+    text-align: center;
+    background-color: #e6e6e6;
+    font-size: 1.2rem;
+}
+.secondbottom a{
+    color: black;
+    text-decoration: none;
+}
+.secondbottom a:hover{
+    text-decoration: underline;
+}
+.bottombutton button{
+    margin: 6px;
+    padding:6px
+}
+.fa {
+    padding: 0px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect if you want */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: white;
+    color: black;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+.icon{
+    display: flex;
+    margin: 24px;
+}  
+.icondiv{
+    margin-left: 820px;
+}
+footer{
+    display: flex;
+    background-color:#e6e6e6 ;
+}
+footer div{
+    margin: 48px;
+}
+footer div p:hover{
+    text-decoration: underline;
+}
+.footer div p{
+    margin: 6px;
+}
